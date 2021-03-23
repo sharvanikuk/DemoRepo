@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Demo Git Repo Application Test Automation Test Suite" thread-count="2"  >
+  
+  <listeners>
+  
+  	<listener class-name="com.qa.ExtentReportListener.ExtentReportListener" >
+  	
+  	</listener>
+  </listeners>
+  
+  <test name="Demo  Repo App Test Cases">
+  <classes>
+      <class name="com.qa.test.LoginTest">  	</class>   
+   
+  </classes>
+  
+  </test>
+  </suite>
